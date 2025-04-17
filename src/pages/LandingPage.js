@@ -6,6 +6,7 @@ import HowItWorks from "../components/HowItWorks"
 import CallToAction from "../components/CallToAction"
 import Footers from "../components/Footers"
 import TrendingCourses from "../components/Trendingcourses"
+import CourseRecommender from "../components/CourseRecommender"
 
 export default function LandingPage() {
   return (
@@ -13,6 +14,7 @@ export default function LandingPage() {
       <Navbar />
       <Hero />
       <WhyCollabLearn />
+      <CourseRecommender/>
       <TrendingCourses/>
       <HowItWorks/>
       <Testimonials />
